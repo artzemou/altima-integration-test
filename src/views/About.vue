@@ -1,7 +1,7 @@
 <template>
   <div>
     <slot name="section-title"></slot>
-    <section class="section section-about">
+    <section class="section section-about" id="section-about">
       <div class="section-content">
         <div class="section-content-title" >
           <h2>About</h2>
@@ -24,7 +24,17 @@
 /* eslint-disable */
 import fetch from 'cross-fetch';
 export default {
-  name: 'About'
+  name: 'About',
+  mounted () {
+    this.manualScroll()
+  },
+  methods: {
+    manualScroll () {
+      setTimeout(() => {
+        this.$scrollTo('#section-about', {offset: -200})
+      }, 1000)
+    }
+  }
 
 }
 </script>

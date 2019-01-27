@@ -23,6 +23,7 @@
     "vue-avatar": "^2.1.7",
     "vue-lazyload": "^1.2.6",
     "vue-router": "^3.0.1",
+    "vue-scrollto": "^2.13.0",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

@@ -20,7 +20,6 @@
         </div>
       </div>
     </header>
-
     <transition name="router-anim" mode="out-in" appear>
       <router-view class="view">
         <SectionWrapper classProp="section-title" slot="section-title">
@@ -74,7 +73,6 @@ export default {
   },
   methods: {
     isNavOpened() {
-      console.log('???')
       this.isOpened ? this.isOpened = false : this.isOpened = true
     }
   }

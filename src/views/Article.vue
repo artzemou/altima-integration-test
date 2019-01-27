@@ -1,7 +1,7 @@
 <template>
   <div>
     <slot name="section-title"></slot>
-    <section v-if="data.length" class="section section-articles">
+    <section v-if="data.length" class="section section-articles" id="section-articles">
       <div class="section-content">
         <article
           class="section-articles-blog-article"
@@ -37,6 +37,16 @@ export default {
   },
   methods: {
 
+  },
+  mounted () {
+    this.manualScroll()
+  },
+  methods: {
+    manualScroll () {
+      setTimeout(() => {
+        this.$scrollTo('#section-articles', {offset: -200})
+      }, 1000)
+    }
   },
   created () {
     (async () => {

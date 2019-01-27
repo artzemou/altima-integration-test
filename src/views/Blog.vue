@@ -1,7 +1,7 @@
 <template>
   <div>
     <slot name="section-title"></slot>
-    <section class="section section-blog">
+    <section class="section section-blog" id="section-blog">
       <div class="section-content">
         <div class="section-content-title" >
           <h2>Blog</h2>
@@ -47,7 +47,14 @@ export default {
     }
   },
   methods: {
-
+    manualScroll () {
+      setTimeout(() => {
+        this.$scrollTo('#section-blog', {offset: -200})
+      }, 1000)
+    }
+  },
+  mounted () {
+    this.manualScroll()
   },
   created () {
     (async () => {
@@ -60,13 +67,13 @@ export default {
         }
         const data = await res.json();
         this.data = data;
-        console.log(this.data)
 
       } catch (err) {
         console.error(err);
       }
     })();
   }
+
 }
 </script>
 <style lang="scss" scoped>
