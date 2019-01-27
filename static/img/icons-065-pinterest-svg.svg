@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 487" width="487" height="487">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1   0 0 0 1 0" /> </filter>
+		<filter id="flt2"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1   0 0 0 1 0" /> </filter>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { filter: url(#flt1);fill: #ffffff } 
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<g id="Layer">
+				<path id="Layer" class="shp0" d="M430.15,135.25c-13.28,-96.12 -109.07,-145.07 -211.28,-133.61c-80.8,9.06 -161.36,74.39 -164.7,167.81c-2.04,57.03 14.14,99.8 68.4,111.84c23.5,-41.59 -7.57,-50.68 -12.43,-80.8c-19.91,-123.12 142.03,-207.2 226.84,-121.17c58.73,59.58 20.03,242.77 -74.57,223.71c-90.62,-18.18 44.38,-164 -27.94,-192.61c-58.79,-23.29 -90.01,71.13 -62.14,118.07c-16.35,80.71 -51.56,156.71 -37.3,257.91c46.21,-33.56 61.8,-97.73 74.57,-164.7c23.22,14.14 35.66,28.76 65.27,31.04c109.2,8.48 170.27,-109.01 155.28,-217.48z" />
+			</g>
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer" style="filter: url(#flt2)">
+	</g>
+</svg>
