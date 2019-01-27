@@ -8,11 +8,11 @@
         </div>
         <nav :class="[{ isOpened: isOpened }]">
           <ul>
-            <li @click="isNavOpened"><router-link to="/">Home</router-link></li>
-            <li @click="isNavOpened"><router-link to="/about">About</router-link></li>
-            <li @click="isNavOpened"><router-link to="/blog">Blog</router-link></li>
-            <li @click="isNavOpened"><router-link to="/">Portfolio</router-link></li>
-            <li @click="isNavOpened"><router-link to="/">Contact</router-link></li>
+            <li @click="isNavOpened"><router-link to="/" v-scroll-to="'#app'">Home</router-link></li>
+            <li @click="isNavOpened"><router-link to="/about" v-scroll-to="'#app'">About</router-link></li>
+            <li @click="isNavOpened"><router-link to="/blog" v-scroll-to="'#app'">Blog</router-link></li>
+            <li @click="isNavOpened"><router-link to="/" v-scroll-to="'#app'">Portfolio</router-link></li>
+            <li @click="isNavOpened"><router-link to="/" v-scroll-to="'#app'">Contact</router-link></li>
           </ul>
         </nav>
         <div @click="isNavOpened" class="header-icon-burger">
@@ -80,7 +80,6 @@ export default {
 </script>
 
 <style lang="scss">
-  // @import url('');
   @font-face {
     font-family:"Poppins";
     src: url("/static/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
